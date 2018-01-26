@@ -1,4 +1,4 @@
-FROM node:8-alpine as BUILD
+FROM node:8-alpine
 MAINTAINER Lyndon <snakeliwei@gmail.com>
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories \
