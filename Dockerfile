@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:9-alpine
 LABEL maintainer = "snakeliwei@gmail.com"
 
 RUN yarn config set registry https://registry.npm.taobao.org -g \
